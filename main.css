@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.desc {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.subDesc {
+  font-size: 14px;
+  text-align: center;
+}
+
+.subDesc span {
+  color: blue;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.controls button {
+  color: #fff;
+  border: 1px solid #fff;
+  background: #358ad9;
+  font-size: 18px;
+  padding: 20px;
+  min-width: 215px;
+}
+
+.btn-disableAds {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  background: #4cb551;
+  color: #fff;
+  margin-top: 10px;
+  padding: 4px 10px;
+}
